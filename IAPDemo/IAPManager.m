@@ -148,7 +148,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(IAPManager)
     
 #ifdef TestFinishTransaction
     _transaction = transaction;
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"(restore) finishTransaction?" delegate:self cancelButtonTitle:@"YES" otherButtonTitles:@"NO", nil];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"(Restore) finishTransaction?" delegate:self cancelButtonTitle:@"YES" otherButtonTitles:@"NO", nil];
     [alert show];
 #else
     [CommonHelper showTipWithTitle:nil msg:@"Purchase restore succeed"];
